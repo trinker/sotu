@@ -1,0 +1,16 @@
+citHeader("To cite sotu in publications, please use:")
+
+
+citEntry(entry = "manual",
+    title = "{sotu}: United States Presidential State of the Union Addresses Data",
+    author = "Tyler W. Rinker",
+    organization = "University at Buffalo/SUNY",
+    address = "Buffalo, New York",
+    note = "version 0.0.1",
+    year = "2016",
+    url = "http://github.com/trinker/sotu",
+    textVersion  = paste("Rinker, T. W. (2016).",
+        "sotu: United States Presidential State of the Union Addresses Data",
+        "version 0.0.1. University at Buffalo. Buffalo, New York.",
+        "http://github.com/trinker/sotu")
+)
