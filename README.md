@@ -43,9 +43,6 @@ Data
 <td align="left"><code>data.frmae</code></td>
 <td align="left">United States Presidential State of the Union Addresses</td>
 </tr>
-<tr class="even">
-<td align="left"></td>
-</tr>
 </tbody>
 </table>
 

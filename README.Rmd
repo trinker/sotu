@@ -35,10 +35,10 @@ knitr::opts_chunk$set(fig.path = "inst/figure/")
 
 ## Data
 
-| Data                    | Type         |  Description                                      |
-|------------------------------|--------------|---------------------------------------------------|
+| Data                         | Type         |  Description                                            |
+|------------------------------|--------------|---------------------------------------------------------|
 | `sotu`                       | `data.frmae` | United States Presidential State of the Union Addresses |
-                              |
+
 
 # Installation
 
