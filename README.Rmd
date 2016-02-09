@@ -35,10 +35,10 @@ knitr::opts_chunk$set(fig.path = "inst/figure/")
 
 ## Data
 
-| Function                     | Type         |  Description                                      |
+| Data                    | Type         |  Description                                      |
 |------------------------------|--------------|---------------------------------------------------|
 | `sotu`                       | `data.frmae` | United States Presidential State of the Union Addresses |
-| `sotu_ds`                    | `list`       | [`data_store`](https://github.com/trinker/hclustext/blob/master/R/data_store.R) created from `sotu` which includes a `DocumentTermMatrix`                                  |
+                              |
 
 # Installation
 
@@ -84,7 +84,7 @@ data(sotu)
 
 Initially, when I started looking at the data set I was interested in the ages of Presidents.  I was amazed at the ages that early presidents lived too.  My wife, Cheryl, suggested I look at this in the context of when the presidents took office.  This plot shows the span from inauguration (red dot) to death (black dot) as a gray segment.  I can't make any conclusions but it is interesting that many of the mid-section Presidents took office later and lived shorter.
 
-```{r, warning=FALSE}
+```{r, warning=FALSE, fig.height=8.5}
 sotu %>%
     select(President, Start, Died, Born) %>%
     distinct() %>%

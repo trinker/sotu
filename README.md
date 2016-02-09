@@ -29,15 +29,10 @@ Data
 ============
 
 
-<table style="width:136%;">
-<colgroup>
-<col width="43%" />
-<col width="20%" />
-<col width="72%" />
-</colgroup>
+<table>
 <thead>
 <tr class="header">
-<th align="left">Function</th>
+<th align="left">Data</th>
 <th align="left">Type</th>
 <th align="left">Description</th>
 </tr>
@@ -49,9 +44,7 @@ Data
 <td align="left">United States Presidential State of the Union Addresses</td>
 </tr>
 <tr class="even">
-<td align="left"><code>sotu_ds</code></td>
-<td align="left"><code>list</code></td>
-<td align="left"><a href="https://github.com/trinker/hclustext/blob/master/R/data_store.R"><code>data_store</code></a> created from <code>sotu</code> which includes a <code>DocumentTermMatrix</code></td>
+<td align="left"></td>
 </tr>
 </tbody>
 </table>
